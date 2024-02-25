@@ -1,0 +1,150 @@
+body {
+   font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+    margin: 0;
+}
+
+/*header stuff here*/
+header{
+    background-color: #77a1d9;
+ color: #172940;
+    padding: .75rem 2rem;
+}
+
+/* Nav stuff*/
+nav {
+    background-color: #9Abbd9;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0 2vw; 
+    margin: 0;
+    display: flex;
+}
+nav a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #172940;
+    font-weight: 700;
+    display: block;
+    padding: .75rem 2rem;
+}
+Nav li.active a{
+    background-color: #172940;
+        color:#9Abbd9;
+}
+nav a:hover {
+    color: white;
+}
+
+/*stuff for the main*/
+main{
+    padding: 1rem 2vw;
+}
+
+main h1{
+    color: #172940; 
+}
+main h2{
+    color: #172940;
+    margin-bottom: .2rem;
+}
+main h3{
+    color: #172940;
+    margin-bottom: .2rem;
+}
+main p{
+   color: #172940;
+    margin-top: .2rem;
+}
+main ol {
+    padding: .5rem 2vw;
+    color: #3470bf;
+}
+main ol a{
+    Color:#3470bf;
+}
+main ol a:hover{
+    Color:#9Abbd9;
+}
+
+/*def list stuff*/
+
+main dl dt {
+    color:#172940;
+    font-weight: 700
+}
+main dl dd {
+    color:#172940;
+    font-size: .9rem;
+}
+
+Main ul{
+    list-style-type:square;
+}
+main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address{
+    font-style: normal;
+    background-color: #f0f0f2;
+    padding: .5rem;
+    width: 15rem;
+    border: 1px solid #77a1d9;
+    border-radius: .5rem;
+}
+main a{
+    color: #3470bf;
+}
+main a:hover{
+    color: #9ABBD9;
+}
+
+figure.home {
+    width: auto;
+    float: right;
+    margin: 0 2% 0 2%;
+}
+
+figure.home img {
+    width: 100%;
+    height: auto;
+    
+}
+
+figure.home figcaption {
+    text-align: center;
+    font-size: .85rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery figure {
+    margin: .5rem 2%;
+}
+.gallery figcaption{
+    text-align: center;
+    font-size: .8rem;
+    color: #172940;
+}
+
+
+/*footer stuff*/
+footer{
+    background-color: #77a1d9;
+    text-align: center;
+    color: #172940;
+    padding: 1rem;
+    font-size: .8rem;
+    clear:both
+}
+footer a {
+    color: #172940;
+}
+
